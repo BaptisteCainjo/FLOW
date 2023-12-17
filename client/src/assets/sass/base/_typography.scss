@@ -1,0 +1,48 @@
+// // Fichier: base/typographie.scss
+
+// // Définition des styles de typographie de base
+
+// // Police par défaut
+// $police-par-defaut: Arial, sans-serif;
+
+// // Taille de police par défaut
+// $taille-police-par-defaut: 16px;
+
+// // Espacement des lignes par défaut
+// $espacement-lignes-par-defaut: 1.5;
+
+// // Couleur de texte par défaut
+// $couleur-texte-par-defaut: #333;
+
+// // Styles de typographie pour les paragraphes
+// p {
+//   font-family: $police-par-defaut;
+//   font-size: $taille-police-par-defaut;
+//   line-height: $espacement-lignes-par-defaut;
+//   color: $couleur-texte-par-defaut;
+// }
+
+// // Styles de typographie pour les titres
+// h1, h2, h3 {
+//   font-family: $police-par-defaut;
+//   color: $couleur-texte-par-defaut;
+// }
+
+
+h1 {
+    font-size: 2.5em;
+}
+
+// h2 {
+//   font-size: 20px;
+// }
+
+// h3 {
+//   font-size: 18px;
+// }
+
+p, a, label{
+    font-size: 0.875em;
+    font-weight: 400;
+    text-decoration: none;
+}

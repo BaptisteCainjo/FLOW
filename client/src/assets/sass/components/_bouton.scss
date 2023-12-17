@@ -1,0 +1,45 @@
+.button{
+    border: 1px solid $bkg-color-component-black;
+    background-color: $bkg-color-component-black;
+    width: fit-content;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: $border-raduis-medium;
+    width: max-content;
+    font-weight: 600;
+}
+
+.pink{
+    background-color: $color-pink;
+}
+
+
+.active{
+    background-color: #ffffff;
+    a{
+        color: $bkg-color-black-secondary;
+    }
+}
+
+.large-button{
+    background-color: $bkg-color-component-black;
+    border-radius: 7px;
+    font-size: 1.25rem;
+    color: $color-white;
+    font-weight: 600;
+    transition: $init-transition;
+    text-align: center;
+    padding: 12.5px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+
+    &.pink{
+        background-color: $color-pink;
+        font-size: 1.33rem;
+    }
+}
+

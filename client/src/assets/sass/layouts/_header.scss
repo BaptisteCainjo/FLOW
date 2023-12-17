@@ -1,0 +1,31 @@
+$height-header-large: 80px;
+
+header {
+    background-color: $bkg-color-black-secondary;
+    height: $height-header-large;
+    border-bottom: 1px solid $bkg-color-component-black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .menu {
+        height: 28%;
+        margin-left: 5%;
+    }
+
+    .logo-resp {
+        height: 41%;
+        margin-right: 5%;
+    }
+
+    .logo {
+        height: 41%;
+        margin-left: 5%;
+    }
+}
+
+.authentification{
+    display: flex;
+    gap: 15px;
+    margin-right: 5%;
+}

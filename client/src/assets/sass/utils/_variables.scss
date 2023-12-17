@@ -1,0 +1,22 @@
+//INIT VALUE
+
+$init-color-transparent:transparent;
+$init-color-black:#000000;
+$init-transition:ease-in-out 0.25s;
+$init-height:100vh;
+
+$bkg-color-black-primary:#0E0F11;
+$bkg-color-black-secondary:#181a1c;
+$bkg-color-component-black:#242527;
+$color-white:#ffffff;
+$color-white-25:darken($color-white, 25);
+
+$color-pink:#E83E80;
+
+$border-raduis-line: 4px;
+$border-raduis-medium: 7px;
+
+
+$media-queries-very-small-screen: "max-width: 320px";
+$media-queries-high-small-screen: "min-width: 640px";
+$media-queries-medium-screen: "min-width: 320px";
